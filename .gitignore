@@ -1,10 +1,10 @@
 # Python caches and local environments
 __pycache__/
 *.py[cod]
-.venv/
-venv/
 .pytest_cache/
 .ipynb_checkpoints/
+.venv/
+venv/
 
 # Incomplete downloads, model weights, and run outputs
 *.filepart
@@ -19,11 +19,9 @@ outputs/
 test_output/
 vis_output/
 
-# Datasets and generated similarity matrices
-Annotations/
+# Large local video datasets
 Compressed_videos/
 *.lmdb/
-qb_norm_sim_matrix/
 
 # Local secrets
 .env
