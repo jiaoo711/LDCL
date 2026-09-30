@@ -1,0 +1,30 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Incomplete downloads, model weights, and run outputs
+*.filepart
+*.pt
+*.pth
+*.pth.tar
+checkpoints/
+weights/
+logs/
+runs/
+outputs/
+test_output/
+vis_output/
+
+# Datasets and generated similarity matrices
+Annotations/
+Compressed_videos/
+*.lmdb/
+qb_norm_sim_matrix/
+
+# Local secrets
+.env
+.env.*
